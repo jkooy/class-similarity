@@ -1,10 +1,10 @@
-# class-similarity
-The code to calculate similarity of different dataset base on dataset labels using cosine similarity and GloVe embedding.
+# Class-similarity
+This repo offers the code to calculate similarity of different dataset based on dataset labels using cosine similarity and GloVe embedding.
 
-*cosine_similarity.py* provides the function to calculate the cosine similarity between two GloVe vector.
+  *cosine_similarity.py* provides the function to calculate the cosine similarity between two GloVe vector.
 
-*embedding.py* converts labels of dataset to GloVe vectors.
+  *embedding.py* converts labels of dataset to GloVe vectors.
 
-*get_avelabel.py* gets labels from label json files.
+  *get_avelabel.py* gets labels from label json files.
 
-*label_similarity.py* is the main function to calculate the similarity given the label files.
+  *label_similarity.py* is the main function to calculate the similarity given the label files.
